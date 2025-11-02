@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="¿Tenés dudas sobre Tripy o querés planificar tus próximos findes? Contactanos. Envíanos un mensaje, tu foto y tus recomendaciones de destinos para la comunidad Tripy." />
+    <meta name="keywords" content="contacto, formulario de contacto, dudas, sugerencias, Tripy, compartir fotos de viaje, Buenos Aires" />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="" />
+
+    <!-- BOOTSTRAP -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../style.css">
+
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../Imagenes/logo.png" alt="logo de Tripy" width="50" height="50" class="d-inline-block align-text-center me-2">
+                    Tripy
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">
+                                <img src="../Imagenes/icono_inicio.png" alt="icono de inicio" width="17" height="17" class="me-2">Inicio
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">
+                                <img src="../Imagenes/icono_nosotros.png" alt="icono de sobre nosotros" width="20" height="20" class="me-2">Sobre Nosotros
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="exploremos.html">
+                                <img src="../Imagenes/icono_explorar.png" alt="icono de explorar" width="25" height="25" class="me-2">Exploremos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="preguntas.html">
+                                <img src="../Imagenes/icono_preguntas.png" alt="icono de preguntas frecuentes" width="17" height="17" class="me-2">Preguntas Frecuentes
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">
+                                <img src="../Imagenes/icono_contacto.png" alt="icono de contacto" width="22" height="22" class="me-2">Contacto
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="hero">
+            <div class="hero-contact">
+                <h1>Contacto</h1>
+                <p>La aventura de viajar es un tesoro que se multiplica cuando se comparte. Escribinos ante cualquier duda que tengas y quieras resolver. ¡Además podes enviarnos tu foto y recomendación de lugares que te gustaria ver en nuestra página!</p>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <div class="contact-container">
+            <div class="contact-form">
+                <h2>Envíanos tu mensaje</h2>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput2" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Foto</label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+                <button type="submit" class="btn-enviar">Enviar mensaje</button>
+            </div>
+
+            <div class="contact-info">
+                <div class="info-box">
+                    <h3>Ubicación</h3>
+                    <img src="../Imagenes/icono_ubicacion.png" alt="icono de ubicación"> Buenos aires, Argentina.
+                </div>
+                <div class="info-box">
+                    <h3>Horario</h3>
+                    <p>Lunes a Viernes<br>9:00 - 18:00</p>
+                </div>
+                <div class="info-box">
+                    <h3>Por qué contactarnos</h3>
+                    <p>Queremos ayudarte a planificar tus próximos findes, responder tus dudas o recibir tus sugerencias. ¡Tu opinión nos importa!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="../index.html" class="nav-link px-2">Inicio</a></li>
+            <li class="nav-item"><a href="nosotros.html" class="nav-link px-2">Sobre Nosotros</a></li>
+            <li class="nav-item"><a href="exploremos.html" class="nav-link px-2">Exploremos</a></li>
+            <li class="nav-item"><a href="preguntas.html" class="nav-link px-2">Preguntas Frecuentes</a></li>
+            <li class="nav-item"><a href="contacto.html" class="nav-link px-2">Contacto</a></li>
+        </ul>
+        <p class="text-center">&copy; Carolina Muñoz</p>
+
+        <div class="social-icons">
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="../Imagenes/icono_instagram.png" alt="icono de instagram">
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="../Imagenes/icono_facebook.png" alt="icono de facebook">
+            </a>
+            <a href="https://open.spotify.com/playlist/3FgyENZ6WXkPcAT7mPZEUx?si=fbPp_8NdTtyRBKE2RgosVQ" target="_blank">
+                <img src="../Imagenes/icono_spotify.png" alt="icono de spotify">
+            </a>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

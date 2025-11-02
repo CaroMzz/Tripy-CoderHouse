@@ -6,10 +6,12 @@ footer {
 
     .nav-item a {
     color: variables.$color_secundario;
-    }
+    transition: all 0.2s linear;
 
-    .nav-item a:hover {
-    color: #362A1F;      
+        &:hover {
+            color: variables.$color_terciario;
+            transform: scale(1.03);
+        }
     }
 
     ul.nav {

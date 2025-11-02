@@ -4,18 +4,28 @@ nav {
     background-color: variables.$color_header;
     .nav-link {
     color: variables.$color_secundario;
+    transition: all 0.2s linear;
+
+        &:hover {
+            color: variables.$color_terciario;
+            transform: scale(1.03);
+        }
     }
     
-    .nav-link:hover {
-    color: #2c1f15;
-    }
 
     .navbar-brand {
     color: variables.$color_secundario;
+    transition: all 0.2s linear;
+
+        &:hover {
+            color: variables.$color_terciario;
+            transform: scale(1.03);
+        }
     }
 
-    .navbar-brand:hover {
-        color: variables.$color_terciario;
+    .navbar-brand img{
+        animation: shake 0.4s ease-in-out infinite;
+        animation-delay: 0.5s;
     }
 
     .navbar-toggler-icon {
@@ -24,7 +34,6 @@ nav {
         height: 3px;
         background-color: variables.$color_terciario; 
         position: relative;
-        transition: all 0.3s;
         border-radius: 5px;
     }
 
@@ -47,4 +56,14 @@ nav {
     .navbar-toggler-icon::after {
         top: 6px;
     }
+}
+
+@keyframes shake {
+  0% { transform: translate(0, 0) rotate(0); }
+  10% { transform: translate(-2px, -2px) rotate(-2deg); }
+  20% { transform: translate(2px, 2px) rotate(2deg); }
+  30% { transform: translate(-2px, 2px) rotate(-1deg); }
+  40% { transform: translate(2px, -2px) rotate(1deg); }
+  50% { transform: translate(-1px, 1px) rotate(0); }
+  100% { transform: translate(0, 0) rotate(0); }
 }

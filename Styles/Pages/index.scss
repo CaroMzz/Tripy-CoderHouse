@@ -1,0 +1,113 @@
+@use '../variables.scss';
+
+.hero-index{
+    background-image: url("/Imagenes/hero_inicio.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    padding: 4rem 2rem;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    button {
+        padding: 0.8rem 1.5rem;
+        border: none;
+        border-radius: 20px;
+        background: #735945e3;
+        cursor: pointer;
+    }
+}
+
+ .why-us {
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.card {
+    max-width: 300px;     
+    padding: 1.5rem;      
+    border-radius: 15px;
+    background: #e3d7bf33;     
+    box-shadow: 0 4px 6px variables.$color_sombras; 
+    text-align: center;
+    flex: 1 1 250px;     
+}
+
+.fav-places {
+    text-align: center;
+    padding: 0.5rem 2rem;
+
+    h2 {
+        margin-bottom: 1rem; 
+    }
+
+    p {
+        margin-bottom: 0.5rem; 
+    }
+
+    .cards-fav {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
+        gap: 1.5rem; 
+        margin-bottom: 2rem; 
+    }
+
+    .card {
+        width: 18rem; 
+        border-radius: 15px;
+        background: #e3d7bf33;     
+        box-shadow: 0 4px 6px variables.$color_sombras;
+        text-align: left; 
+    }
+
+    .card-location {
+        margin-right: auto; 
+        width: 20px; 
+        height: 20px;
+    }
+
+    .card-title {
+        width: 100%; 
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .card-text {
+        width: 100%; 
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .card-link {
+        color: variables.$color_secundario;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .card-link:hover {
+        color: #735945;
+    }
+
+    button {
+        margin-top: 1rem; 
+        padding: 0.8rem 1.5rem;
+        border: none;
+        border-radius: 15px;
+        background: #735945e3;
+        cursor: pointer;
+    }
+}

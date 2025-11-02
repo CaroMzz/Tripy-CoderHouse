@@ -1,0 +1,42 @@
+@use '../variables.scss';
+
+footer {
+    padding: 2rem 0;
+    text-align: center;
+
+    .nav-item a {
+    color: variables.$color_secundario;
+    }
+
+    .nav-item a:hover {
+    color: #362A1F;      
+    }
+
+    ul.nav {
+    border-bottom: 2px solid #4b36216b !important;
+    width: 60%;           
+    margin: 0 auto 1rem auto; 
+    padding-bottom: 0.5rem;
+    }
+
+    p {
+    color: variables.$color_secundario;
+    margin-top: 1rem;
+    }
+
+    .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-top: 1rem;
+        img {
+        width: 30px;
+        height: 30px;
+        color: variables.$color_secundario;
+        }
+    }
+
+    a {
+    text-decoration: none;
+    }
+}

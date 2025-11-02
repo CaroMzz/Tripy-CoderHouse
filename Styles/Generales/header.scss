@@ -1,0 +1,50 @@
+@use '../variables.scss';
+
+nav {
+    background-color: variables.$color_header;
+    .nav-link {
+    color: variables.$color_secundario;
+    }
+    
+    .nav-link:hover {
+    color: #2c1f15;
+    }
+
+    .navbar-brand {
+    color: variables.$color_secundario;
+    }
+
+    .navbar-brand:hover {
+        color: variables.$color_terciario;
+    }
+
+    .navbar-toggler-icon {
+        background-image: none; 
+        width: 25px;
+        height: 3px;
+        background-color: variables.$color_terciario; 
+        position: relative;
+        transition: all 0.3s;
+        border-radius: 5px;
+    }
+
+    .navbar-toggler-icon::before,
+    .navbar-toggler-icon::after {
+        content: "";
+        position: absolute;
+        width: 25px;
+        height: 3px;
+        background-color: variables.$color_secundario; 
+        left: 0;
+        transition: all 0.3s;
+        border-radius: 5px;
+    }
+
+    .navbar-toggler-icon::before {
+        top: -6px;
+    }
+
+    .navbar-toggler-icon::after {
+        top: 6px;
+    }
+}

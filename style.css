@@ -38,11 +38,18 @@
   display: block;
   margin: 1rem auto 0 auto;
   padding: 0.8rem;
-  background: rgba(115, 89, 69, 0.8901960784);
   border: none;
   border-radius: 25px;
-  cursor: pointer;
   font-weight: 500;
+  background: rgba(115, 89, 69, 0.8901960784);
+  cursor: pointer;
+  color: #2c1f15;
+  transition: all 0.2s linear;
+}
+.contact-form button:hover {
+  background-color: rgba(67.1875, 51.9972826087, 40.3125, 0.8901960784);
+  color: #fbe8d1;
+  transform: scale(1.05);
 }
 
 .contact-info {
@@ -138,6 +145,12 @@
   background: rgba(115, 89, 69, 0.8901960784);
   cursor: pointer;
   color: #2c1f15;
+  transition: all 0.2s linear;
+}
+.not-found-button button:hover {
+  background-color: rgba(67.1875, 51.9972826087, 40.3125, 0.8901960784);
+  color: #fbe8d1;
+  transform: scale(1.05);
 }
 
 .hero-explore {
@@ -233,6 +246,13 @@
   border-radius: 20px;
   background: rgba(115, 89, 69, 0.8901960784);
   cursor: pointer;
+  color: #2c1f15;
+  transition: all 0.2s linear;
+}
+.hero-buttons button:hover {
+  background-color: rgba(67.1875, 51.9972826087, 40.3125, 0.8901960784);
+  color: #fbe8d1;
+  transform: scale(1.05);
 }
 
 .why-us {
@@ -314,6 +334,13 @@
   border-radius: 15px;
   background: rgba(115, 89, 69, 0.8901960784);
   cursor: pointer;
+  color: #2c1f15;
+  transition: all 0.2s linear;
+}
+.fav-places button:hover {
+  background-color: rgba(67.1875, 51.9972826087, 40.3125, 0.8901960784);
+  color: #fbe8d1;
+  transform: scale(1.05);
 }
 
 nav {

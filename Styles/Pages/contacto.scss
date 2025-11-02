@@ -43,11 +43,19 @@
         display: block;
         margin: 1rem auto 0 auto;
         padding: 0.8rem;
-        background: #735945e3;
         border: none;
         border-radius: 25px;
-        cursor: pointer;
         font-weight: 500;
+        background: variables.$color_botones;
+        cursor: pointer;
+        color: variables.$color_terciario;
+        transition: all 0.2s linear;
+
+        &:hover {
+            background-color: darken(variables.$color_botones, 15%);
+            color: variables.$color_header;
+            transform: scale(1.05);
+        }
     }
 }
 

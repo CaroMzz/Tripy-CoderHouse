@@ -16,8 +16,16 @@
         padding: 0.8rem 1.5rem;
         border: none;
         border-radius: 20px;
-        background: #735945e3;
+        background: variables.$color_botones;
         cursor: pointer;
+        color: variables.$color_terciario;
+        transition: all 0.2s linear;
+
+        &:hover {
+            background-color: darken(variables.$color_botones, 15%);
+            color: variables.$color_header;
+            transform: scale(1.05);
+        }
     }
 }
 
@@ -107,7 +115,15 @@
         padding: 0.8rem 1.5rem;
         border: none;
         border-radius: 15px;
-        background: #735945e3;
+        background: variables.$color_botones;
         cursor: pointer;
+        color: variables.$color_terciario;
+        transition: all 0.2s linear;
+
+        &:hover {
+            background-color: darken(variables.$color_botones, 15%);
+            color: variables.$color_header;
+            transform: scale(1.05);
+        }
     }
 }

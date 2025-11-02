@@ -1,5 +1,5 @@
 .hero-contact {
-  background-image: url("/Imagenes/hero_contacto.jpg");
+  background-image: url("./Imagenes/hero_contacto.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -82,7 +82,7 @@
   }
 }
 .hero-questions {
-  background-image: url("/Imagenes/hero_preguntas.jpg");
+  background-image: url("./Imagenes/hero_preguntas.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -154,7 +154,7 @@
 }
 
 .hero-explore {
-  background-image: url("/Imagenes/hero_exploremos.jpg");
+  background-image: url("./Imagenes/hero_exploremos.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -210,7 +210,7 @@
 }
 
 .hero-us {
-  background-image: url("/Imagenes/hero_nosotros.jpeg");
+  background-image: url("./Imagenes/hero_nosotros.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -228,7 +228,7 @@
 }
 
 .hero-index {
-  background-image: url("/Imagenes/hero_inicio.jpg");
+  background-image: url("./Imagenes/hero_inicio.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
